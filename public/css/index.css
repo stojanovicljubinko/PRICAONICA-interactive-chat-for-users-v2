@@ -1,0 +1,278 @@
+.sidebar_status_text {
+  background-color: rgba(255, 255, 255);
+  border: 0em;
+  color: steelblue;
+  padding: 0.35em;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sidebar_email_text {
+  background-color: rgba(255, 255, 255);
+  border: 0em;
+  color: steelblue;
+  padding: 0.25em;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+.sidebar_username_text {
+  background-color: rgba(255, 255, 255);
+  border: 0em;
+  color: steelblue;
+  padding: 0.25em;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+.sidebar_logout_text {
+  background: steelblue;
+  border: 0em;
+  margin-bottom: 5px;
+}
+
+.animation_button2:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+.animation_button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+.signup_btn {
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  letter-spacing: 0.05em;
+}
+
+.icon_style {
+  color: steelblue;
+  margin-right: 15px;
+}
+
+.link_snow:hover {
+  color: snow;
+  text-decoration: none;
+}
+.input_item_index {
+  background: #fff;
+  color: #333;
+  padding: 7.4px 0px 8.5px 5px;
+  border-radius: 3.5px 0px 0px 3.5px;
+}
+
+.form_input_index {
+  width: 120px;
+  height: 32px;
+
+  margin-top: 2%;
+  padding: 7.5px;
+
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+  color: #5e6472;
+
+  outline: none;
+  border: none;
+  font-weight: bold;
+
+  border-radius: 0px 5px 5px 0px !important;
+  transition: 0.2s linear;
+
+  background-color: white !important;
+}
+
+.form_input_index:focus {
+  transform: translateX(-1px);
+  border-radius: 2.5px;
+
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#txt_input_animation_index {
+  width: 125px;
+}
+
+.middle_input {
+  padding-top: 7.5px !important;
+  padding-bottom: 8.5px !important;
+}
+
+.settings_text {
+  color: snow !important;
+  font-size: 22px;
+  font-family: Arial !important;
+}
+.toggle_button_icon {
+  margin: 0px !important;
+}
+
+.navbar-toggle {
+  position: relative !important;
+  float: right !important;
+  padding: 9px 10px !important;
+  margin-top: 8px !important;
+  margin-right: 15px !important;
+  margin-bottom: 8px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px !important;
+}
+.button_log_out {
+  font-family: Arial;
+  background: snow;
+  border: 0px;
+  display: inline-block;
+  color: #252537;
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 1220px) {
+  .settings_text {
+    font-size: 15px !important;
+  }
+  .toggle_button_icon {
+    margin: 0px !important;
+  }
+  .navbar-collapse {
+    width: auto !important;
+    border-top: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .navbar-toggle {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+  }
+  .button_log_out {
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+    border-radius: 0em;
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    width: 250;
+
+    display: block;
+  }
+}
+
+.background_linear_gradient {
+  background-image: linear-gradient(-200deg, steelblue 50%, #f0f0f0 50%);
+  min-width: 100%;
+  min-height: 100%;
+  padding-bottom: 200px;
+}
+
+.padding_right_li {
+  padding-right: 5em !important;
+}
+
+.container_height {
+  min-height: 600px;
+}
+
+.chat_margin {
+  padding-right: 30px;
+}
+
+.chat_insert_post {
+  margin-top: 20px;
+}
+
+.settings_button {
+  height: 50px;
+  width: 170px;
+}
+
+/*neki jebeni stil u kontejneru koji ne radi kako treba, pa ga izbaci ako ne bude radio kako treba, pa će biti kako treba*/
+.end_item_icon {
+  padding: 8px 0px 8px 5px;
+}
+@media screen and (max-width: 1230px) {
+  .button_log_out {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .input_item_index .form_input_index {
+    display: none;
+  }
+  .button_log_out {
+    display: none;
+  }
+
+  ::placeholder {
+    text-align: center;
+  }
+
+  /* or, for legacy browsers */
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+
+  :-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+  }
+
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+  }
+
+  :-ms-input-placeholder {
+    text-align: center;
+  }
+
+  .navbar_colour_text {
+    background: steelblue;
+    border: none;
+  }
+
+  .navbar_container {
+    display: block;
+  }
+
+  .navbar_toggle_border {
+    border: 0px;
+  }
+
+  .span_icon_bar {
+    background: snow;
+  }
+
+  .navbar_li {
+    padding-right: 5em !important;
+  }
+  .form_style {
+    width: auto;
+    height: auto;
+    border-radius: 0em;
+    margin: 0em;
+    box-shadow: none;
+    padding: 0em;
+    background: transparent;
+  }
+  .form_button_border {
+    border-radius: 0px;
+  }
+}
