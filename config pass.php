@@ -11,4 +11,4 @@ return [
     //
 ];
 
-password: config
+// password: config
