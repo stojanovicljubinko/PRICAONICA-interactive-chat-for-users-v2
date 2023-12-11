@@ -37,8 +37,8 @@
   
   <h2>Installation</h2>
   <ol>
-    <li><b>Clone the Repository:</b><br><code>git clone https://github.com/stojanovicljubinko/PRICAONICA-chat-application.git</code></li><br>
-    <li><b>Navigate to Project Directory:</b><br><code>cd PRICAONICA-chat-application</code></li><br>
+    <li><b>Clone the Repository:</b><br><code>git clone https://github.com/stojanovicljubinko/PRICAONICA-interactive-chat-for-users-v2.git</code></li><br>
+    <li><b>Navigate to Project Directory:</b><br><code>cd PRICAONICA-interactive-chat-for-users-v2</code></li><br>
     <li><b>Database Setup:</b><ul><li>Create a new MySQL database <b>`chatdatabase`</b> for the project.</li><li>Import the SQL file located in the project folder to set up the necessary tables.</li></ul></li><br>
     <li><b>Start the Web Server:</b> Start your web server to run the PHP application: <code>php -S localhost:8000 -t public</code>.</li>
     <li><b>Access the Application:</b> Open your web browser and navigate to the application's URL (e.g., <code>http://localhost:8000</code>).</li>
